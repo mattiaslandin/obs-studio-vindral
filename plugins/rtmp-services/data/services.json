@@ -2484,6 +2484,32 @@
                 "keyint": 2,
                 "max video bitrate": 16000
             }
+        },
+        {
+            "name": "Vindral",
+            "more_info_link": "https://docs.vindral.com/docs/vindral-cdn/",
+            "servers": [
+                {
+                    "name": "eu-north",
+                    "url": "rtmps://rtmp.eu-north.cdn.vindral.com/publish"
+                },
+                {
+                    "name": "eu-west",
+                    "url": "rtmps://rtmp.eu-west.cdn.vindral.com/publish"
+                }
+            ],
+            "supported video codecs": [
+                "h264"
+            ],
+            "supported audio codecs": [
+                "aac"
+            ],
+            "recommended": {
+                "keyint": 1,
+                "profile": "baseline",
+                "bframes": 0,
+                "output": "rtmp_output"
+            }
         }
     ]
 }
